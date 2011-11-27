@@ -1,0 +1,1099 @@
+TAPIScanner
+v7
+r0
+t320012466.644691
+cCheck dependencies
+cProcessInfoPlistFile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Info.plist" APIScanner-Info.plist
+cCopyStringsFile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/MainMenu.xib"
+cCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.xib"
+cCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Preferences.xib"
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/General.png" General.png
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/AppScannerHelp" AppScannerHelp
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/appstore_review_guidelines.txt" appstore_review_guidelines.txt
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/Other.png" Other.png
+cCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.xib"
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/Credits.html" Credits.html
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/blank_monitor.jpeg" blank_monitor.jpeg
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/AppScanner.icns" AppScanner.icns
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/zap.wav" zap.wav
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/ChangeLog.rtf" ChangeLog.rtf
+cCpResource "build/Debug/App Scanner.app/Contents/Resources/Pweep.sqlite" Pweep.sqlite
+cProcessPCH /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch.gch APIScanner_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Pweep_DataModel.mom" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel"
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/main.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/APIScannerAppDelegate.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainVC.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/BinaryDataHelper.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSObject+SBJSON.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSString+SBJSON.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJSON.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonBase.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonParser.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonWriter.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ModelDataHelpers.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/Pweep.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ScanResultsWC.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DBPrefsWindowController.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MyPrefsWC.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DropBox.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ServerSyncer.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainCommand.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MAAttachedWindow.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner" normal x86_64
+cGenerateDSYMFile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app.dSYM" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner"
+cTouch "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app"
+cCodeSign "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D49A4CE00000000000000EE
+t1296671950
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004CAA740400000000002527C8
+t1286239236
+s2435016
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004C23BD2900000000000017ED
+t1277410601
+s6125
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B73FBEF000000000000043A
+t1265892335
+s1082
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004CAA740500000000000036E0
+t1286239237
+s14048
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C23B7E500000000000000BF
+t1277409253
+s191
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CAA740500000000000A3C74
+t1286239237
+s670836
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004C23CD6E0000000000000957
+t1277414766
+s2391
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004CAA7406000000000008DF08
+t1286239238
+s581384
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.h
+c000000004D62C1A900000000000004E5
+t1298317737
+s1253
+i<Cocoa/Cocoa.h>
+i"MainVC.h"
+i"MyPrefsWC.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m
+c000000004D62C6F50000000000002917
+t1298319093
+s10519
+i"APIScannerAppDelegate.h"
+i"ServerSyncer.h"
+i"Constants.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScanner_Prefix.pch
+c000000004C7FC0C70000000000000097
+t1283440839
+s151
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/AppScanner.icns
+c000000004CAF3661000000000004EE80
+t1286551137
+s323200
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/AppScannerHelp
+c000000004D50626700000000000001DC
+t1297113703
+s476
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.h
+c000000004C8657630000000000000255
+t1283872611
+s597
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m
+c000000004C911A44000000000000154A
+t1284577860
+s5450
+i"BinaryDataHelper.h"
+i"Constants.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ChangeLog.rtf
+c000000004D3D9DC600000000000003FC
+t1295883718
+s1020
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Constants.h
+c000000004C96831800000000000001EA
+t1284932376
+s490
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Credits.html
+c000000004D3D9F8700000000000003B4
+t1295884167
+s948
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.h
+c000000004CB4F9710000000000000B3A
+t1286928753
+s2874
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m
+c000000004D62BF4800000000000025B4
+t1298317128
+s9652
+i"DBPrefsWindowController.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.h
+c000000004C8F885200000000000000FF
+t1284474962
+s255
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m
+c000000004C8F89AD0000000000000757
+t1284475309
+s1879
+i"DropBox.h"
+i"MainVC.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/InfoPlist.strings
+c000000004C7FC0C7000000000000002D
+t1283440839
+s45
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/MainMenu.xib
+c000000004D62C53F0000000000024652
+t1298318655
+s149074
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/General.png
+c0000000045E7C6A00000000000000508
+t1172817568
+s1288
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Helpers.h
+c000000004C8657FE00000000000000C3
+t1283872766
+s195
+i"BinaryDataHelper.h"
+i"ModelDataHelpers.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/JSON.h
+c000000004AFC36D700000000000008F9
+t1258043095
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.h
+c0000000048106F250000000000001F0D
+t1209036581
+s7949
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m
+c0000000048446CCD00000000000073C9
+t1212443853
+s29641
+i"MAAttachedWindow.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.h
+c000000004D5039EC000000000000055D
+t1297103340
+s1373
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m
+c000000004D505A3200000000000031C8
+t1297111602
+s12744
+i"MainCommand.h"
+i"Pweep.h"
+i"Constants.h"
+i"Helpers.h"
+i"ServerSyncer.h"
+i"APIScannerAppDelegate.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.h
+c000000004D62BCCF0000000000000770
+t1298316495
+s1904
+i<Cocoa/Cocoa.h>
+i"ScanResultsWC.h"
+i"DropBox.h"
+i"MAAttachedWindow.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m
+c000000004D62BD8E0000000000005A74
+t1298316686
+s23156
+i"MainVC.h"
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i<AppKit/AppKit.h>
+i"Constants.h"
+i"Helpers.h"
+i"APIScannerAppDelegate.h"
+i"Pweep.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.xib
+c000000004D62BE33000000000001ADB3
+t1298316851
+s110003
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.h
+c000000004C8FBBD10000000000000259
+t1284488145
+s601
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m
+c000000004D502A4B0000000000000FFA
+t1297099339
+s4090
+i"ModelDataHelpers.h"
+i"Pweep.h"
+i"Constants.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.h
+c000000004D3DA3C8000000000000022C
+t1295885256
+s556
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+i"DBPrefsWindowController.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m
+c000000004D3DA220000000000000058F
+t1295884832
+s1423
+i"MyPrefsWC.h"
+i"Constants.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.h
+c000000004AFC36D70000000000000A01
+t1258043095
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m
+c000000004AFC36D7000000000000089C
+t1258043095
+s2204
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.h
+c000000004AFC36D70000000000000916
+t1258043095
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m
+c000000004AFC36D7000000000000087C
+t1258043095
+s2172
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Other.png
+c000000004C911BF90000000000000A63
+t1284578297
+s2659
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Preferences.xib
+c000000004D3DA393000000000000D799
+t1295885203
+s55193
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.h
+c000000004C869CF60000000000000232
+t1283890422
+s562
+i<CoreData/CoreData.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m
+c000000004C869CF3000000000000012B
+t1283890419
+s299
+i"Pweep.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.sqlite
+c000000004D3DAB640000000000176800
+t1295887204
+s1533952
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel
+c000000004C90F97D0000000000000088
+t1284569469
+s136
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.h
+c000000004AFC36D70000000000000AED
+t1258043095
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m
+c000000004AFC36D70000000000001ABC
+t1258043095
+s6844
+i"SBJSON.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.h
+c000000004AFC36D70000000000000B82
+t1258043095
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m
+c000000004AFC36D70000000000000AC1
+t1258043095
+s2753
+i"SBJsonBase.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.h
+c000000004AFC36D70000000000000C0B
+t1258043095
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m
+c000000004AFC36D700000000000036CF
+t1258043095
+s14031
+i"SBJsonParser.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.h
+c000000004AFC36D70000000000001140
+t1258043095
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m
+c000000004AFC36D70000000000001E83
+t1258043095
+s7811
+i"SBJsonWriter.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.h
+c000000004D62B4790000000000000352
+t1298314361
+s850
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m
+c000000004D3DB59E0000000000001A21
+t1295889822
+s6689
+i"ScanResultsWC.h"
+i"ServerSyncer.h"
+i"SBJSON.h"
+i"Pweep.h"
+i"Constants.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.xib
+c000000004D3DAAC9000000000001CBD5
+t1295887049
+s117717
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.h
+c000000004D5041180000000000000265
+t1297105176
+s613
+i<Cocoa/Cocoa.h>
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m
+c000000004D62BAC10000000000001E48
+t1298315969
+s7752
+i"ServerSyncer.h"
+i"APIScannerAppDelegate.h"
+i"Pweep.h"
+i"JSON.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/appstore_review_guidelines.txt
+c000000004C8FC15F0000000000003510
+t1284489567
+s13584
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/blank_monitor.jpeg
+c000000004CB0882A0000000000001653
+t1286637610
+s5715
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/APIScannerAppDelegate.o
+t1298319666
+s78852
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/App Scanner.LinkFileList
+c000000004D62B3FD0000000000000C07
+t1298314237
+s3079
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/BinaryDataHelper.o
+t1297110601
+s23240
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DBPrefsWindowController.o
+t1298317129
+s62364
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DropBox.o
+t1298316575
+s20556
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MAAttachedWindow.o
+t1298314241
+s78624
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainCommand.o
+t1298317739
+s61464
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainVC.o
+t1298317739
+s126248
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ModelDataHelpers.o
+t1297110602
+s24372
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MyPrefsWC.o
+t1297110602
+s23332
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSObject+SBJSON.o
+t1297110601
+s9208
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSString+SBJSON.o
+t1297110602
+s9120
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/Pweep.o
+t1297110602
+s6264
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJSON.o
+t1297110602
+s22992
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonBase.o
+t1297110602
+s15448
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonParser.o
+t1297110602
+s38176
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonWriter.o
+t1297110602
+s28936
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ScanResultsWC.o
+t1298314366
+s72404
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ServerSyncer.o
+t1298317739
+s65280
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/main.o
+t1297110601
+s13920
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app
+t1298319666
+s102
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app.dSYM
+t1298319666
+s102
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Info.plist
+t1297112543
+s1296
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner
+t1298319666
+s226384
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/PkgInfo
+t1297112543
+s8
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/AppScanner.icns
+t1297111462
+s323200
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/AppScannerHelp
+t1298314237
+s442
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/ChangeLog.rtf
+t1297111462
+s1020
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Credits.html
+t1297111462
+s948
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1297111462
+s92
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj/MainMenu.nib
+t1298318967
+s23653
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/General.png
+t1297111462
+s1288
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/MainVC.nib
+t1298316852
+s19924
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Other.png
+t1297111462
+s2659
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Preferences.nib
+t1297111462
+s6291
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Pweep.sqlite
+t1297111462
+s1533952
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Pweep_DataModel.mom
+t1297111462
+s1689
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/ScanResultsWC.nib
+t1297111462
+s22227
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/appstore_review_guidelines.txt
+t1297111462
+s13584
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/blank_monitor.jpeg
+t1297111462
+s5715
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/zap.wav
+t1297111462
+s46898
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m
+c000000004D50450A0000000000000504
+t1297106186
+s1284
+i<Cocoa/Cocoa.h>
+i"MainCommand.h"
+i"Constants.h"
+
+N/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/zap.wav
+c000000004CB099B0000000000000B732
+t1286642096
+s46898
+
+N/var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch.gch
+t1297110601
+s54306576
+
+NAPIScanner-Info.plist
+c000000004D505BDF0000000000000532
+t1297112031
+s1330
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320012466#320012466#0(0"0(0#1#0"8640092480#0"0#
+
+CCodeSign "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app"
+s320012466.498023
+e320012466.644656
+r1
+xCodeSign
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app
+lSLF07#2@38"CodeSign "build/Debug/App Scanner.app"320012466#320012466#0(0"0(0#0#105"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app8629599680#276"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /usr/bin/codesign -f -s "3rd Party Mac Developer Application: Andrew Schenk" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/APIScannerAppDelegate.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320012466.227825
+e320012466.412741
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/APIScannerAppDelegate.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m320012466#320012466#0(0"0(0#0#101"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m8640129408#2088"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScannerAppDelegate.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/APIScannerAppDelegate.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/BinaryDataHelper.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803401.754947
+e318803401.947592
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/BinaryDataHelper.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m318803401#318803401#0(0"0(0#0#96"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m8636737344#2078"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/BinaryDataHelper.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/BinaryDataHelper.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DBPrefsWindowController.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320009929.305011
+e320009929.446011
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DBPrefsWindowController.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m320009929#320009929#0(0"0(0#0#103"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m8626363136#2092"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DBPrefsWindowController.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DBPrefsWindowController.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DropBox.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320009375.210763
+e320009375.422368
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DropBox.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m320009375#320009375#0(0"0(0#0#87"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m8649045408#2060"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/DropBox.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/DropBox.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MAAttachedWindow.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320007041.380185
+e320007041.662031
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MAAttachedWindow.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m320007041#320007041#0(0"0(0#0#96"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m8617730048#2078"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MAAttachedWindow.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MAAttachedWindow.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainCommand.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320010538.792015
+e320010539.088070
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainCommand.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m320010538#320010539#0(0"0(0#0#91"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m8629903232#2068"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainCommand.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainCommand.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainVC.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320010538.788532
+e320010539.166590
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainVC.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m320010538#320010539#0(0"0(0#0#86"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m8615846048#2058"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MainVC.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ModelDataHelpers.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803402.193775
+e318803402.376212
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ModelDataHelpers.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m318803402#318803402#0(0"0(0#0#96"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m8647758816#2078"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ModelDataHelpers.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ModelDataHelpers.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MyPrefsWC.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803402.353894
+e318803402.605088
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MyPrefsWC.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m318803402#318803402#0(0"0(0#0#89"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m8646670848#2064"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MyPrefsWC.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/MyPrefsWC.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSObject+SBJSON.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803401.844425
+e318803401.993360
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSObject+SBJSON.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m318803401#318803401#0(0"0(0#0#95"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m8632673984#2076"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSObject+SBJSON.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSObject+SBJSON.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSString+SBJSON.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803401.947721
+e318803402.114548
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSString+SBJSON.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m318803401#318803402#0(0"0(0#0#95"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m8647232640#2076"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/NSString+SBJSON.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/NSString+SBJSON.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/Pweep.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803402.196851
+e318803402.344980
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/Pweep.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m318803402#318803402#0(0"0(0#0#85"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m8642521312#2056"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/Pweep.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJSON.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803401.993507
+e318803402.196704
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJSON.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m318803401#318803402#0(0"0(0#0#86"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m8622705248#2058"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJSON.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJSON.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonBase.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803402.018809
+e318803402.193638
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonBase.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m318803402#318803402#0(0"0(0#0#90"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m8613543328#2066"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonBase.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonBase.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonParser.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803402.114694
+e318803402.353743
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonParser.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m318803402#318803402#0(0"0(0#0#92"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m8642516416#2070"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonParser.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonParser.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonWriter.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803402.150894
+e318803402.346640
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonWriter.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m318803402#318803402#0(0"0(0#0#92"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m8630719456#2070"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/SBJsonWriter.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/SBJsonWriter.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ScanResultsWC.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320007166.076349
+e320007166.363885
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ScanResultsWC.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m320007166#320007166#0(0"0(0#0#93"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m8615538528#2072"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ScanResultsWC.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ServerSyncer.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s320010538.790868
+e320010539.077781
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ServerSyncer.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m320010538#320010539#0(0"0(0#0#92"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m8620154208#2070"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ServerSyncer.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/ServerSyncer.o"0#
+
+CCompileC "build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/main.o" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803401.690598
+e318803401.844285
+r1
+xCompileC
+xbuild/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/main.o
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m318803401#318803401#0(0"0(0#0#84"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m8632659680#2054"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -include /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/main.m" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/MainMenu.xib"
+s320011767.613528
+e320011767.860786
+r1
+xCompileXIB
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib320011767#320011767#0(0"0(0#0#104"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/MainMenu.xib8626999136#491"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/MainMenu.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.xib"
+s320009652.095961
+e320009652.383802
+r1
+xCompileXIB
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.xib
+lSLF07#2@21"CompileXIB MainVC.xib320009652#320009652#0(0"0(0#0#88"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.xib8629980608#459"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/MainVC.nib" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/MainVC.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Preferences.xib"
+s318804262.073974
+e318804262.491797
+r1
+xCompileXIB
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Preferences.xib
+lSLF07#2@26"CompileXIB Preferences.xib318804262#318804262#0(0"0(0#0#93"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Preferences.xib8618185088#469"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Preferences.nib" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Preferences.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.xib"
+s318804262.073270
+e318804262.596753
+r1
+xCompileXIB
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.xib
+lSLF07#2@28"CompileXIB ScanResultsWC.xib318804262#318804262#0(0"0(0#0#95"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.xib8623251072#473"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/ScanResultsWC.nib" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ScanResultsWC.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s318804262.071837
+e318804262.116109
+r1
+xCopyStringsFile
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318804262#318804262#0(0"0(0#0#109"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/English.lproj/InfoPlist.strings8627317920#451"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/AppScanner.icns" AppScanner.icns
+s318804262.471464
+e318804262.481367
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/AppScanner.icns
+xAppScanner.icns
+lSLF07#2@20"Copy AppScanner.icns318804262#318804262#0(0"0(0#0#93"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/AppScanner.icns8634371680#472"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/AppScanner.icns" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/AppScannerHelp" AppScannerHelp
+s320007037.396724
+e320007037.497007
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/AppScannerHelp
+xAppScannerHelp
+lSLF07#2@19"Copy AppScannerHelp320007037#320007037#0(0"0(0#0#92"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/AppScannerHelp18296075357192292#471"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/AppScannerHelp" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/ChangeLog.rtf" ChangeLog.rtf
+s318804262.474313
+e318804262.481701
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/ChangeLog.rtf
+xChangeLog.rtf
+lSLF07#2@18"Copy ChangeLog.rtf318804262#318804262#0(0"0(0#0#91"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ChangeLog.rtf8624199392#470"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/ChangeLog.rtf" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/Credits.html" Credits.html
+s318804262.468591
+e318804262.475904
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/Credits.html
+xCredits.html
+lSLF07#2@17"Copy Credits.html318804262#318804262#0(0"0(0#0#90"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Credits.html8635267200#469"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Credits.html" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/General.png" General.png
+s318804262.116250
+e318804262.130772
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/General.png
+xGeneral.png
+lSLF07#2@16"Copy General.png318804262#318804262#0(0"0(0#0#89"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/General.png8648280416#468"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/General.png" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/Other.png" Other.png
+s318804262.118778
+e318804262.131510
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/Other.png
+xOther.png
+lSLF07#2@14"Copy Other.png318804262#318804262#0(0"0(0#0#87"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Other.png8636400256#466"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Other.png" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/Pweep.sqlite" Pweep.sqlite
+s318804262.475029
+e318804262.484910
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/Pweep.sqlite
+xPweep.sqlite
+lSLF07#2@17"Copy Pweep.sqlite318804262#318804262#0(0"0(0#0#90"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.sqlite8622101632#469"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep.sqlite" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/appstore_review_guidelines.txt" appstore_review_guidelines.txt
+s318804262.118125
+e318804262.127181
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/appstore_review_guidelines.txt
+xappstore_review_guidelines.txt
+lSLF07#2@35"Copy appstore_review_guidelines.txt318804262#318804262#0(0"0(0#0#108"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/appstore_review_guidelines.txt8642872384#487"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/appstore_review_guidelines.txt" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/blank_monitor.jpeg" blank_monitor.jpeg
+s318804262.469562
+e318804262.476125
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/blank_monitor.jpeg
+xblank_monitor.jpeg
+lSLF07#2@23"Copy blank_monitor.jpeg318804262#318804262#0(0"0(0#0#96"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/blank_monitor.jpeg8634905248#475"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/blank_monitor.jpeg" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CCpResource "build/Debug/App Scanner.app/Contents/Resources/zap.wav" zap.wav
+s318804262.473556
+e318804262.481542
+r1
+xCpResource
+xbuild/Debug/App Scanner.app/Contents/Resources/zap.wav
+xzap.wav
+lSLF07#2@12"Copy zap.wav318804262#318804262#0(0"0(0#0#85"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/zap.wav8632642176#464"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/zap.wav" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources"0#
+
+CDataModelCompile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Pweep_DataModel.mom" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel"
+s318804262.597038
+e318804262.811449
+r1
+xDataModelCompile
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Pweep_DataModel.mom
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel
+lSLF07#2@113"Compile /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel318804262#318804262#0(0"0(0#0#105"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel8615520704#399"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/Pweep_DataModel.xcdatamodel" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Resources/Pweep_DataModel.mom"0#
+
+CGenerateDSYMFile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app.dSYM" "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner"
+s320012466.468981
+e320012466.495742
+r1
+xGenerateDSYMFile
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app.dSYM
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner
+lSLF07#2@108"GenerateDSYMFile "build/Debug/App Scanner.app.dSYM" "build/Debug/App Scanner.app/Contents/MacOS/App Scanner"320012466#320012466#0(0"0(0#0#132"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner8647743744#370"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /Developer/usr/bin/dsymutil "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner" -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app.dSYM"0#
+
+CLd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner" normal x86_64
+s320012466.412859
+e320012466.468871
+r1
+xLd
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner
+xnormal
+xx86_64
+lSLF07#2@137"Link /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner320012466#320012466#0(0"0(0#0#0"8649884320#924"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" -filelist "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/Objects-normal/x86_64/App Scanner.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework WebKit -framework QuartzCore -framework AppKit -framework Quartz -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/MacOS/App Scanner"0#
+
+CProcessInfoPlistFile "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Info.plist" APIScanner-Info.plist
+s318805343.564272
+e318805343.567477
+r1
+xProcessInfoPlistFile
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Info.plist
+xAPIScanner-Info.plist
+lSLF07#2@29"Process APIScanner-Info.plist318805343#318805343#0(0"0(0#0#99"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScanner-Info.plist8647487104#444"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    builtin-infoPlistUtility APIScanner-Info.plist -genpkginfo "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch.gch APIScanner_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s318803399.254661
+e318803401.689698
+r1
+xProcessPCH
+x/var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch.gch
+xAPIScanner_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile APIScanner_Prefix.pch318803399#318803401#0(0"0(0#0#99"/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScanner_Prefix.pch8625931008#1915"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-generated-files.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-own-target-headers.hmap" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-all-target-headers.hmap" -iquote "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/App Scanner-project-headers.hmap" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug" "-F/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/include" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources/x86_64" "-I/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/App Scanner.build/Debug/APIScanner.build/DerivedSources" -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/APIScanner_Prefix.pch" -o /var/folders/9H/9H29deMSHqyq5tqsLufMvU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/APIScanner_Prefix-bvhvmdyxgyaykabicbyvooyxqivx/APIScanner_Prefix.pch.gch0#
+
+CTouch "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app"
+s320012466.495861
+e320012466.497950
+r1
+xTouch
+x/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app
+lSLF07#2@111"Touch /Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app320012466#320012466#0(0"0(0#0#0"8630493152#217"    cd "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2"    /usr/bin/touch -c "/Users/aschenk/Documents/Business/Personal Work/Private_API/App Scanner v_1.2/build/Debug/App Scanner.app"0#
+

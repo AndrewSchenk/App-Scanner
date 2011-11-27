@@ -1,0 +1,113 @@
+Apps that crash will be rejected
+Apps that exhibit bugs will be rejected
+Apps that do not perform as advertised by the developer will be rejected
+Apps that include undocumented or hidden features inconsistent with the description of the app will be rejected
+Apps that use non-public APIs will be rejected
+Apps that read or write data outside its designated container area will be rejected
+Apps that download code in any way or form will be rejected
+Apps that install or launch other executable code will be rejected
+Apps that are "beta", "demo", "trial", or "test" versions will be rejected
+iPhone apps must also run on iPad without modification, at iPhone resolution, and at 2X iPhone 3GS resolution
+Apps that duplicate apps already in the App Store may be rejected, particularly if there are many of them
+Apps that are not very useful or do not provide any lasting entertainment value may be rejected
+Apps that are primarily marketing materials or advertisements will be rejected
+Apps that are intended to provide trick or fake functionality that are not clearly marked as such will be rejected
+Apps larger than 20MB in size will not download over cellular networks (this is automatically prohibited by the App Store)
+Multitasking apps may only use background services for their intended purposes: VoIP, audio playback, location, task completion, local notifications, etc
+Apps that browse the web must use the iOS WebKit framework and WebKit Javascript
+Apps that encourage excessive consumption of alcohol or illegal substances, or encourage minors to consume alcohol or smoke cigarettes, will be rejected
+Apps that provide incorrect diagnostic or other inaccurate device data will be rejected
+Developers "spamming" the App Store with many versions of similar apps will be removed from the iOS Developer Program
+Apps with metadata that mentions the name of any other mobile platform will be rejected
+Apps with placeholder text will be rejected
+Apps with descriptions not relevant to the application content and functionality will be rejected
+App names in iTunes Connect and as displayed on a device should be similar, so as not to cause confusion
+Small and large app icons should be similar, so as to not to cause confusion
+Apps with app icons and screenshots that do not adhere to the 4+ age rating will be rejected
+Apps with Category and Genre selections that are not appropriate for the app content will be rejected
+Developers are responsible for assigning appropriate ratings to their apps. Inappropriate ratings may be changed by Apple
+Developers are responsible for assigning appropriate keywords for their apps. Inappropriate keywords may be changed/deleted by Apple
+Developers who attempt to manipulate or cheat the user reviews or chart ranking in the App Store with fake or paid reviews, or any other inappropriate methods will be removed from the iOS Developer Program
+Apps that do not notify and obtain user consent before collecting, transmitting, or using location data will be rejected
+Apps that use location-based APIs for automatic or autonomous control of vehicles, aircraft, or other devices will be rejected
+Apps that use location-based APIs for dispatch, fleet management, or emergency services will be rejected
+Apps that provide Push Notifications without using the Apple Push Notification (APN) API will be rejected
+Apps that use the APN service without obtaining a Push Application ID from Apple will be rejected
+Apps that send Push Notifications without first obtaining user consent will be rejected
+Apps that send sensitive personal or confidential information using Push Notifications will be rejected
+Apps that use Push Notifications to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
+Apps cannot use Push Notifications to send advertising, promotions, or direct marketing of any kind
+Apps cannot charge users for use of Push Notifications
+Apps that excessively use the network capacity or bandwidth of the APN service or unduly burden a device with Push Notifications will be rejected
+Apps that transmit viruses, files, computer code, or programs that may harm or disrupt the normal operation of the APN service will be rejected
+Apps that display any Player ID to end users or any third party will be rejected
+Apps that use Player IDs for any use other than as approved by the Game Center terms will be rejected
+Developers that attempt to reverse lookup, trace, relate, associate, mine, harvest, or otherwise exploit Player IDs, alias, or other information obtained through the Game Center will be removed from the iOS Developer Program
+Game Center information, such as Leaderboard scores, may only be used in apps approved for use with the Game Center
+Apps that use Game Center service to send unsolicited messages, or for the purpose of phishing or spamming will be rejected
+Apps that excessively use the network capacity or bandwidth of the Game Center will be rejected
+Apps that transmit viruses, files, computer code, or programs that may harm or disrupt the normal operation of the Game Center service will be rejected
+Apps that artificially increase the number of impressions or click-throughs of ads will be rejected
+Apps that contain empty iAd banners will be rejected
+Apps that are designed predominantly for the display of ads will be rejected
+Apps must comply with all terms and conditions explained in the <a href="http://www.apple.com/legal/trademark/guidelinesfor3rdparties.html">Guidelines for using Apple Trademark and Copyrights</a> and the <a href="http://www.apple.com/legal/trademark/appletmlist.html">Apple Trademark List</a>
+Apps that suggest or infer that Apple is a source or supplier of the app, or that Apple endorses any particular representation regarding quality or functionality will be rejected
+Apps which appear confusingly similar to an existing Apple product or advertising theme will be rejected
+Apps that misspell Apple product names in their app name (i.e., GPS for Iphone, iTunz) will be rejected
+Use of protected 3rd party material (trademarks, copyrights, trade secrets, otherwise proprietary content) requires a documented rights check which must be provided upon request
+Google Maps and Google Earth images obtained via the Google Maps API can be used within an application if all brand features of the original content remain unaltered and fully visible. Apps that cover up or modify the Google logo or copyright holders identification will be rejected
+Apps that do not use the MediaPlayer framework to access media in the Music Library will be rejected
+App user interfaces that mimic any iPod interface will be rejected
+Audio streaming content over a cellular network  may not use more than 5MB over 5 minutes
+Video streaming content over a cellular network longer than 10 minutes must use HTTP Live Streaming and include a baseline 64 kbps audio-only HTTP Live stream
+Apps must comply with all terms and conditions explained in the <a href="/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html">Apple iPhone Human Interface Guidelines</a> and the <a href="/library/ios/documentation/General/Conceptual/iPadHIG/Introduction/Introduction.html">Apple iPad Human Interface Guidelines</a>
+Apps that look similar to apps bundled on the iPhone, including the App Store, iTunes Store, and iBookstore, will be rejected
+Apps that do not use system provided items, such as buttons and icons, correctly and as described in the <a href="/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Introduction/Introduction.html">Apple iPhone Human Interface Guidelines</a> and the <a href="/library/ios/documentation/General/Conceptual/iPadHIG/Introduction/Introduction.html">Apple iPad Human Interface Guidelines</a> may be rejected
+Apps that create alternate desktop/home screen environments or simulate multi-app widget experiences will be rejected
+Apps that alter the functions of standard switches, such as the Volume Up/Down and Ring/Silent switches, will be rejected
+Apple and our customers place a high value on simple, refined, creative, well thought through interfaces. They take more work but are worth it. Apple sets a high bar. If your user interface is complex or less than very good it may be rejected
+Apps that unlock or enable additional features or functionality with mechanisms other than the App Store will be rejected
+Apps utilizing a system other than the In App Purchase API (IAP) to purchase content, functionality, or services in an app will be rejected
+Apps using IAP to purchase physical goods or goods and services used outside of the application will be rejected
+Apps that use IAP to purchase credits or other currencies must consume those credits within the application
+Apps that use IAP to purchase credits or other currencies that expire will be rejected
+Content subscriptions using IAP must last a minimum of 30 days and be available to the user from all of their iOS devices
+Apps that use IAP to purchase items must assign the correct Purchasability type
+Apps that use IAP to purchase access to built-in capabilities provided by iOS, such as the camera or the gyroscope, will be rejected
+Apps containing "rental" content or services that expire after a limited time will be rejected
+Insurance applications must be free, in legal-compliance in the regions distributed, and cannot use IAP
+In general, the more expensive your app, the more thoroughly we will review it
+Applications that scrape any information from Apple sites (for example from <a href="http://apple.com">apple.com</a>, iTunes Store, App Store, iTunes Connect, Apple Developer Programs, etc) or create rankings using content from Apple sites and services will be rejected
+Applications may use approved Apple RSS feeds such as the iTunes Store RSS feed
+Apps that are simply web clippings, content aggregators, or a collection of links, may be rejected
+Apps that encourage users to use an Apple Device in a way that may cause damage to the device will be rejected
+Apps that rapidly drain the device's battery or generate excessive heat will be rejected
+Any app that is defamatory, offensive, mean-spirited, or likely to place the targeted individual or group in harms way will be rejected
+Professional political satirists and humorists are exempt from the ban on offensive or mean-spirited commentary
+Apps portraying realistic images of people or animals being killed or maimed, shot, stabbed, tortured or injured will be rejected
+Apps that depict violence or abuse of children will be rejected
+"Enemies" within the context of a game cannot solely target a specific race, culture, a real government or corporation, or any other real entity
+Apps involving realistic depictions of weapons in such a way as to encourage illegal or reckless use of such weapons will be rejected
+Apps that include games of Russian roulette will be rejected
+Apps that present excessively objectionable or crude content will be rejected
+Apps that are primarily designed to upset or disgust users will be rejected
+Apps cannot transmit data about a user without obtaining the user's prior permission and providing the user with access to information about how and where the data will be used
+Apps that require users to share personal information, such as email address and date of birth, in order to function will be rejected
+Apps that target minors for data collection will be rejected
+Apps containing pornographic material, defined by Webster's Dictionary as "explicit descriptions or displays of sexual organs or activities intended to stimulate erotic rather than aesthetic or emotional feelings", will be rejected
+Apps that contain user generated content that is frequently pornographic (ex "Chat Roulette" apps) will be rejected
+Apps containing references or commentary about a religious, cultural or ethnic group that are defamatory, offensive, mean-spirited or likely to expose the targeted group to harm or violence will be rejected
+Apps may contain or quote religious text provided the quotes or translations are accurate and not misleading.  Commentary should be educational or informative rather than inflammatory
+Sweepstakes and contests must be sponsored by the developer/company of the app
+Official rules for sweepstakes and contests, must be presented in the app and make it clear that Apple is not a sponsor or involved in the activity in any manner
+It must be permissible by law for the developer to run a lottery app, and a lottery app must have all of the following characteristics: consideration, chance, and a prize
+Apps that allow a user to directly purchase a lottery or raffle ticket in the app will be rejected
+Apps that include the ability to make donations to recognized charitable organizations must be free
+The collection of donations must be done via a web site in Safari or an SMS
+Apps must comply with all legal requirements in any location where they are made available to users.  It is the developer's obligation to understand and conform to all local laws
+Apps that contain false, fraudulent or misleading representations will be rejected
+Apps that solicit, promote, or encourage criminal or clearly reckless behavior will be rejected
+Apps that enable illegal file sharing will be rejected
+Apps that are designed for use as illegal gambling aids, including card counters, will be rejected
+Apps that enable anonymous or prank phone calls or SMS/MMS messaging will be rejected
+Developers who create apps that surreptitiously attempt to discover user passwords or other private user data will be removed from the iOS Developer Program

@@ -1,0 +1,196 @@
+<html>
+	<head>
+		<title>
+			App Scanner Quick Start
+		</title>
+		<meta name="AppleTitle" content="AppScannerHelp">
+		<link href="appscanner.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div id="headerIcon">
+					<img alt="appicon" src="AppScannerImages/appscannericon.png">
+				</div>
+				<div id="headerTitle">
+					App Scanner
+				</div>
+				<div id="headerSubtitle">
+					Find private APIs before submission
+				</div>
+				<div id="headerBody">
+					&nbsp;
+				</div>
+				<div id="preMenu">
+					<p>
+						<b>Quick Start</b>
+					</p>                  
+					<p>
+						Use the following guide to get your up and running in no time with App Scanner.  If you have additional questions, 
+						please consult the FAQs to the right.
+					</p>
+				 
+				</div>
+				<ul id="menu">
+					<li> <a href="AppScannerHelp.html">Home </a>  
+					</li>
+					<li>
+					   Quick Start
+					</li>
+					<li>
+						<a href="faqs.html">FAQs</a>
+					</li>
+					<li>
+						<a href="http://www.chimpstudios.com/appscanner/bug/">Online Help Board</a>
+					</li>
+				</ul>
+			</div>
+			<div id="content"> 
+				<h2>
+					What am I looking at?
+				</h2>
+				
+				<div id="apps">
+					<img alt="instructional_window" src="quickstart_window.png">
+					<p>
+						A. Apple review guidelines that cycle through.  Feel free to read them while your app is being scanned.
+					</p>
+					<p>
+						B. A search bar that lets you look up method signatures.  Just start typing a signature and results will start to 
+						appear.  Try typing in "streetview" without the quotes and see if iOS has Google street view embedded in it.
+					</p>
+					<p>
+						C. The entire window acts like a drop box.  Drop your compiled (debug/simulator) .app file onto this window to start the scanning process.
+					</p>
+				</div>    
+				<p>
+					There are two primary ways that you can start using App Scanner, Search or Scan.
+				</p> 	
+				<h1>
+					Searching:
+				</h1>    
+				<p>
+					To use App Scanner as a search tool, launch the App Scanner app.  Type the method signature into box 'B' (see above sceenshot).  
+					Results will appear in a table below the search bar (see below screenshot).  
+					
+					<img alt="search_results" src="search_results.png">
+					
+					<br />
+					There are two columns here.  The first column is the likelihood.  It tells you how likely that result is to being a private API 
+					method.  0% == not at all.  100% == YES, IT IS PRIVATE!
+					<br/>  <br/>
+					The second column shows the method signature.  Note that method signatures are condensed down and strip out the variable names.  
+					i.e. a regular method that looks like:
+					
+					<div id="apps">
+						-(void)thisIsMyExampleWithText:(NSString*)myText;
+					</div>
+					will look like
+					<div id="apps">
+						thisIsMyExampleWithText:
+					</div>
+					in App Scanner results.
+				</p>
+				<h1>
+					Scanning:
+				</h1>
+				<p>
+					The second way you can use App Scanner is to drop your compiled code into the App Scanner window and have it analyzed for 
+					private API methods.  This is extremely useful for quickly checking open source code or code pilfered from the internet that 
+					may be untrustworthy and contain private API methods.
+				</p>
+				<p>
+					To initiate scanning, build your Xcode project for Simulator/Debug.  Find the resulting .app file.  Drag and drop that .app file 
+					onto App Scanner.  App Scanner will present you with a progress bar and a fun little animation to keep you entertained while it 
+					works.
+				</p>
+				<p>
+					When App Scanner is finished analyzing your code it will display a results window.  The results window will list all the possible 
+					matches that it found.  The most important item in the results window is the likelihood column (first column).  It tells you 
+					whether or not the match is confirmed (100%) or a false positive (0%).       
+				</p>
+				<h3>
+					Broadening the Scan:
+				</h3>
+				<p>
+					You broaden or limit the scan by going to the preferences and setting the filter rate.  This is helpful if you only want to see 
+					confirmed private signatures, or if you want to see additional results.  By default this value is set to 30%, meaning that only 
+					results with a likelihood of 30% or higher are shown in the results table.
+				</p>	
+				<h1>
+					Advanced Scanning (Command Line):
+				</h1>
+					Starting in version 1.4 of App Scanner, developers can integrate scanning into their build scripts via the command line.  The 
+					command line version of App Scanner is integrated into the GUI version.
+					<br/>
+					<br/>
+					Example Call:
+					<div id="apps">
+						./<i>pathtoAppScanner.app</i>/contents/macos/App\ Scanner -p <i>pathtoiOS.app</i> -v YES -l 50 -u YES
+					</div>
+					
+					The flags accepted in the command line version are:
+					<br/>
+					<br/>
+					<b>-p</b> Path (String):<br/>
+					&nbsp;&nbsp;&nbsp;Supply the path of the iOS.app that you'd like to scan.
+					<br/>
+					<br/>
+					<b>-l</b> Likelihood (int 1-100):<br/>
+					&nbsp;&nbsp;&nbsp;The % cutoff for results.  -l 100 only returns method signatures that have a %100 likelihood of being private.
+					<br/>
+					<br/>
+					<b>-v</b> Verbose (bool):<br/>
+					&nbsp;&nbsp;&nbsp;Prints more of what is going on behind the scenes in App Scanner.  This is useful App Scanner doesn't appear to be working.
+					<br/>
+					<br/>
+					<b>-u</b> Update (bool):<br/>
+					&nbsp;&nbsp;&nbsp;Tells App Scanner to fetch the latest changes from the master server and update its local database before scanning your app.  This 
+					flag is <b>highly</b> recommended on your first run on App Scanner if you haven't run the GUI version yet.  It will take an extra minute 
+					or two to complete the scan.
+					<br/>
+					<br/>
+					<br/>
+					<h4>
+						Output:
+					</h4>
+					Results are tab delimited.  If verbose mode is turned off, then only the results will show.  The example below shows verbose on.
+					If you have troubles calling the command line version, you can also try "cd" 'ing into the 'macos' folder and try running the binary 
+					again.  The below example shows the launch command from within the 'macos' folder.
+					<br/>
+					<div id="apps">
+						Leela:macos aschenk$ ./App\ Scanner -p /Users/aschenk/Desktop/Offline\ Trip\ Guide.app -v YES -l 27 -u NO<br/>
+						path = /Users/aschenk/Desktop/Offline Trip Guide.app<br/>
+						filter level = 27 (pc)<br/>
+						verbose is ON<br/>
+						starting scanner...<br/>
+						Analyzing Binary File...<br/>
+						Pulling Method Signatures Out Of Binary...<br/>
+						Cleaning up method signatures...<br/>
+						Searching for private method signature matches...<br/>
+						Retrieving Details for Matches...<br/>
+						Scan Complete...<br/>
+						Likelihood: 100 (pc)	Signature: animationDidStop:finished:context:	Class: DetailedViewController<br/>
+						Likelihood: 100 (pc)	Signature: animationDidStop:finished:context:	Class: DetailedViewController<br/>
+						Likelihood: 49 (pc)	Signature: next	Class: DetailedViewController<br/>
+						Likelihood: 49 (pc)	Signature: next	Class: DetailedViewController<br/>
+						Likelihood: 29 (pc)	Signature: tableView:canMoveRowAtIndexPath:	Class: RootViewController<br/>
+						Likelihood: 29 (pc)	Signature: tableView:canMoveRowAtIndexPath:	Class: RootViewController<br/>
+						Likelihood: 27 (pc)	Signature: navigationController	Class: Offline_Trip_GuideAppDelegate<br/>
+						Likelihood: 27 (pc)	Signature: finish	Class: FFGeneratorController<br/>
+						Likelihood: 27 (pc)	Signature: imageView	Class: AFItemView<br/>
+						Likelihood: 27 (pc)	Signature: number	Class: AFItemView<br/>
+						Likelihood: 27 (pc)	Signature: navigationController	Class: Offline_Trip_GuideAppDelegate<br/>
+						Likelihood: 27 (pc)	Signature: finish	Class: FFGeneratorController<br/>
+						Likelihood: 27 (pc)	Signature: imageView	Class: AFItemView<br/>
+						Likelihood: 27 (pc)	Signature: number	Class: AFItemView<br/>
+					</div>
+					<br/>
+					<br/>
+				<p id="footnote">
+					App Scanner was created by Chimp Studios. ©2011 All rights reserved.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

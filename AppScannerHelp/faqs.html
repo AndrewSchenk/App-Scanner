@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>
+			App Scanner Frequently Asked Questions
+		</title>
+		<meta name="AppleTitle" content="AppScannerHelp">
+		<link href="appscanner.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div id="headerIcon">
+					<img alt="appicon" src="AppScannerImages/appscannericon.png">
+				</div>
+				<div id="headerTitle">
+					App Scanner
+				</div>
+				<div id="headerSubtitle">
+					Find private APIs before submission
+				</div>
+				<div id="headerBody">
+					&nbsp;
+				</div>
+				<div id="preMenu">
+					<p>
+						Frequently asked questions
+					</p>
+					<p>
+						Below is a list of commonly asked questions. Please consult this list before posting to the online help board.
+					</p>
+				</div>
+				<ul id="menu">
+					<li>
+						<a href="AppScannerHelp.html">Home</a>
+					</li>
+					<li>
+						<a href="quickstart.html">Quick Start</a>
+					</li>
+					<li>FAQs
+					</li>
+					<li>
+						<a href="http://www.chimpstudios.com/appscanner/bug/">Online Help Board</a>
+					</li>
+				</ul>
+			</div>
+			<div id="content">
+				<h3>
+					General Questions
+				</h3>
+				<ul class="faqs">
+					<li><a href="#How do I use App Scanner">How do I use App Scanner?</a>
+					</li>
+					<li><a href="#Should I use Simulator">Should I use "Simulator" or "Device" when building my app to test with App Scanner?</a>
+					</li>
+					<li><a href="#What do the results mean">What do the results mean?</a>
+					</li>
+					<li><a href="#If my app passes the App Scanner">If my app passes the App Scanner tests, is it guaranteed to be accepted to the App Store?</a>
+					</li>
+					<li><a href="#What does the feedback button do">What does the feedback button do?</a>
+					</li>
+					<li><a href="#Should I submit feedback">Should I submit feedback on results?</a>
+					</li>
+					<li><a href="#How do I submit feedback">How do I submit feedback on results?</a>
+					</li>
+					<li><a href="#I know a method is private">I know a method is private, but its likelihood isn't 100%, how can I change that?</a>
+					</li>
+				</ul><br>
+				<br>
+				<br clear="both">
+				<p>
+					If your question wasn't found here, try the online <a href="http://www.chimpstudios.com/appscanner/bug/">help board</a>.
+				</p>
+				<div id="apps">
+					<h2>
+						Answers!
+					</h2>
+				</div>
+				<h3>
+					General Questions
+				</h3>
+				<ul class="answers">
+					<li><a name="How do I use App Scanner">How do I use App Scanner?</a>
+					</li>
+			          	<p>
+							The best way to find out the answer to this broad question is to read through the <a href="quickstart.html">Quick Start</a> guide. It'll have you up and running in no time!
+						</p>
+					</li>
+					<li><a name="Should I use Simulator">Should I use "Simulator" or "Device" when building my app to test with App Scanner?</a>
+					</li>              
+						<p>
+							Right now, you'll get the best results by building for the simulator. App Scanner has been designed to pick apart the i386 Mach-O binary files. The i386 architecture is what Xcode builds for when you tell it to target the simulator (since chances are you are running an Intel processor and not an ARM processor).
+						</p>
+					</li>
+					<li><a name="What do the results mean">What do the results mean?</a>
+					</li>
+						<p>
+							There are 5 columns in the results table.
+						</p><b>Likelihood</b><br>
+						<p>
+							This column lets you know how likely the match is to be private. 100% is a bona fide private API, 0% is confirmed to not be private and you shouldn't have to worry about it. Anything in between should be taken with a grain of salt.
+						</p><b>Offending Method Signature</b><br>
+						<p>
+							This column tells you what method was found in your code that might also be a private API method.
+						</p><b>Class Name</b><br>
+						<p>
+							This column shows the name of the class that the offending method signature was found in. This lets you easily track down the location of the private API.
+						</p><b>SDK</b><br>
+						<p>
+							This column has the SDK version that the result correlates to. Older and newer SDKs may have differing results as some private methods become public. If the SDK column says 4.3 and you are compiling against 4.3, then that method signature is likely to be private if it has a 100% likelihood.
+						</p><b>Is Private</b><br>
+						<p>
+							This column lets you submit feedback to the community on your results. If you know that there are false positives, then you can flag them and submit your feedback. This feedback is taken in real time and applied to other copies of App Scanner. The more community feedback we get, the less false positives will show up in results.
+						</p>
+					</li>
+					<li><a name="If my app passes the App Scanner">If my app passes the App Scanner tests, is it guaranteed to be accepted to the App Store? </a>
+					</li>   
+					<p>
+						No.  There are many reasons why apps get rejected.  Private APIs are just one of them.  Additionally, 
+						App Scanner works in a different way than the official iOS App Approval review automated system.  What might slip 
+						past App Scanner could very likely be caught by the official review process.
+					</p>
+					<li><a name="What does the feedback button do">What does the feedback button do?</a>
+					</li>          
+					<p>
+						The feedback button lets you share your wisdom and experience with other developers using App Scanner.  
+						Just mark the results that you get as either being correct (yes it is a private API) or incorrect (this was a 
+						false positive).  That feedback will be sent anonymously to our servers where it will be processed and sent to 
+						all the copies of App Scanner in the world.
+					</p>
+					<li><a name="Should I submit feedback">Should I submit feedback on results?</a>
+					</li>     
+					<p>
+						Yes!  We encourage users to submit feedback on results.  However, if you are really uncertain about something, 
+						then it'd be better if you just leave it alone.  Also, if a method is already at 0% or 100%, then marking it won't 
+						serve much purpose.
+					</p>
+					<li><a name="How do I submit feedback">How do I submit feedback on results?</a>
+					</li>      
+					<p>
+					   Submitting feedback is easy.  Just tick the check boxes next to results that you know are private APIs.  False positives 
+					   should be left un-ticked.  Then click the "Submit Feedback" button and Voila!  You just helped improve our database. 
+					</p>
+					<li><a name="I know a method is private">I know a method is private, but its likelihood isn't 100%, how can I change that?</a>
+					</li>          
+					<p>
+						Please email us with the method signature and your reasoning of why it is in fact a private API.  We'll make the 
+						correction in our database.
+					</p>	
+				</ul><br>
+				<br>
+				<br clear="both">
+				<p id="footnote">
+					App Scanner was created by Chimp Studios. �2011 All rights reserved.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
