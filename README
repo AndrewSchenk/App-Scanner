@@ -1,0 +1,10 @@
+App Scanner
+===========
+
+App Scanner is a preflight submission check list for iOS developers.  It searches code for private API usage.  It is not perfect.
+
+
+Usage
+-----
+
+You can use App Scanner one of three ways:  drop a compiled simulator .app folder into the GUI to scan the app, type method signatures into the search text field, or integrate the command line version into your build phase as part of a script to automatically check code right after it is compiled by Xcode.

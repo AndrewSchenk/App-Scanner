@@ -121,6 +121,7 @@
 		11E614DC12358CAB00A306B3 /* BinaryDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryDataHelper.h; sourceTree = "<group>"; };
 		11E614DD12358CAB00A306B3 /* BinaryDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryDataHelper.m; sourceTree = "<group>"; };
 		11FDE4691482D4BF000E83E5 /* Pweep.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pweep.sqlite; sourceTree = "<group>"; };
+		11FDE46F1482D805000E83E5 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		256AC3D80F4B6AC300CF3369 /* APIScannerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIScannerAppDelegate.h; sourceTree = "<group>"; };
@@ -342,6 +343,7 @@
 		29B97314FDCFA39411CA2CEA /* APIScanner */ = {
 			isa = PBXGroup;
 			children = (
+				11FDE46F1482D805000E83E5 /* README */,
 				1149DECD12652F69000426BD /* ChangeLog.rtf */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
